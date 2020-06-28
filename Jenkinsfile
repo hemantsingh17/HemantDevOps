@@ -2,8 +2,8 @@ pipeline {
     agent any
     environment {
         PROJECT_ID = 'hemantsingh-devops'
-        CLUSTER_NAME = 'kubernetes-cluster'
-        LOCATION = 'us-central1-a'
+        CLUSTER_NAME = 'kubernetes'
+        LOCATION = 'us-central1-c'
         CREDENTIALS_ID = 'kubernetes'
     }
     stages {
