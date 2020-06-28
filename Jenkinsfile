@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         PROJECT_ID = 'hemantsingh-devops'
-        CLUSTER_NAME = 'kubernetes'
+        CLUSTER_NAME = 'kube-demo'
         LOCATION = 'us-central1-c'
         CREDENTIALS_ID = 'kubernetes'
     }
